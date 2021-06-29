@@ -14,4 +14,4 @@ SELECT * FROM 테이블 WHERE 조건식 ORDER BY 컬럼
 - limit a, b : a번째부터 b개 가져옴 (첫번째 컬럼은 0부터 시작)
 
 ex) SELECT DATETIME from ANIMAL_INS ORDER BY DATETIME DESC limit 1
-DATETIME을 내림차순으로 정렬 후 최상단 데이터 가져옴 (가장 최근의 DATETIME)
+- DATETIME을 내림차순으로 정렬 후 최상단 데이터 가져옴 (가장 최근의 DATETIME)
