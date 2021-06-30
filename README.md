@@ -15,3 +15,9 @@ SELECT * FROM 테이블 WHERE 조건식 ORDER BY 컬럼
 
 ex) SELECT DATETIME from ANIMAL_INS ORDER BY DATETIME DESC limit 1
 - DATETIME을 내림차순으로 정렬 후 최상단 데이터 가져옴 (가장 최근의 DATETIME)
+
+
+### JOIN
+- (INNER) JOIN : SELECT * FROM 테이블 JOIN 테이블 ON 조건
+- LEFT JOIN : SELECT * FROM 테이블 LEFT OUTER JOIN 테이블 ON 조건
+- RIGHT JOIN : SELECT * FROM 테이블 RIGHT OUTER JOIN 테이블 ON 조건
