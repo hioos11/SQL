@@ -21,3 +21,10 @@ ex) SELECT DATETIME from ANIMAL_INS ORDER BY DATETIME DESC limit 1
 - (INNER) JOIN : SELECT * FROM 테이블 JOIN 테이블 ON 조건
 - LEFT JOIN : SELECT * FROM 테이블 LEFT OUTER JOIN 테이블 ON 조건
 - RIGHT JOIN : SELECT * FROM 테이블 RIGHT OUTER JOIN 테이블 ON 조건
+
+
+### GROUP BY
+- 컬럼 그룹화 : SELECT * FROM 테이블 GROUP BY 그룹화할 컬럼
+- 조건 처리 후 컬럼 그룹화 : SELECT * FROM 테이블 WHERE 조건식 GROUP BY 그룹화할 컬럼
+- 컬럼 그룹화 처리 후 조건 처리 : SELECT * FROM 테이블 GROUP BY 그룹화할 컬럼 HAVING 조건식
+- 조건 처리 후 컬럼 그룹화 후 조건 처리 : SELECT * FROM 테이블 WHERE 조건식 GROUP BY 그룹화할 컬럼 HAVING 
